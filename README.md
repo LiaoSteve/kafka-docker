@@ -55,6 +55,9 @@ Start a cluster:
 
 - ```docker-compose up -d ```
 
+find the kafka port
+- ```docker ps -a```
+
 Add more brokers:
 
 - ```docker-compose scale kafka=3```
